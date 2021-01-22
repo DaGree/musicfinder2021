@@ -26,7 +26,7 @@ const connection = mysql.createConnection({             //объявление �
     }
  });
 
-
+////
 vk.updates.on('message', (context, next) => {
 
 	const {
